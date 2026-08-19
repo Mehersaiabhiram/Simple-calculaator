@@ -11,5 +11,9 @@ elif c == '/':
     print(a/b)
 elif c == '%':
     print(a%b)
+elif c == '**':
+    print(a**b)
+elif c == '//':
+    print(a//b)
 else:
     print('invalid operator')
